@@ -36,33 +36,46 @@
     }
 
     .cta-button {
-      background-color: #facc15;
-      color: #333;
-      border: none;
-      padding: 12px 24px;
-      font-size: 1em;
-      border-radius: 5px;
-      cursor: pointer;
-      text-decoration: none;
-    }
+  background-color: #facc15;
+  color: #333;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #eab308;
+  color: #000;
+}
 
     .features {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      padding: 40px 20px;
-      background-color: #f9fafb;
-    }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 60px 20px;
+  background-color: #f9fafb;
+}
 
-    .feature {
-      flex: 0 0 30%;
-      background-color: white;
-      border-radius: 8px;
-      padding: 20px;
-      margin: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-      text-align: center;
-    }
+.feature {
+  flex: 1 1 30%;
+  max-width: 30%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
 
     .feature img {
       width: 60px;
@@ -75,16 +88,21 @@
     }
 
     footer {
-      background-color: #1f2937;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
+  background-color: #1f2937;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 
-    footer a {
-      color: #facc15;
-      text-decoration: none;
-    }
+footer a {
+  color: #facc15;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
 
     /* Responsive design */
     @media (max-width: 768px) {
