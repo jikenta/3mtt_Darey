@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Profile</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>My Profile</h1>
+    <nav>
+      <ul>
+        <li>About Me</li>
+        <li>Hobbies</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Bio Section -->
+  <section>
+    <h2>About Me</h2>
+    <p>Hello! My name is John. I am an aspiring software developer passionate about building user-friendly applications and learning new technologies.</p>
+    <img src="https://www.linkedin.com/in/jikenta/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BQiKJWkHCQtWUQlTJPlb3Hg%3D%3D" alt="Profile picture">
+  </section>
+
+  <!-- Hobbies Section -->
+  <section>
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>Coding small projects</li>
+      <li>Reading tech blogs</li>
+      <li>Playing chess</li>
+    </ul>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Contact me at: jikenta@email.com</p>
+    <p>Linkedin: linkedin.com/in/jikenta</p>
+  </footer>
+
+</body>
+</html>
