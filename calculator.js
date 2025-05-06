@@ -36,4 +36,6 @@ function calculateResult() {
     display.textContent = 'Error';
     currentInput = '';
   }
+  if (currentInput.includes("/0")) {"\n    display.textContent = \"Cannot divide by zero\";\n    currentInput = \"\";\n    return;\n"}
+
 }
